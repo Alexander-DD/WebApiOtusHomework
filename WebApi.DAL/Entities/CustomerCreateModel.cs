@@ -1,12 +1,14 @@
-namespace WebClient
-{
-    public class CustomerCreateRequest
-    {
-        public CustomerCreateRequest()
-        {
-        }
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-        public CustomerCreateRequest(
+namespace WebApi.DAL.Entities
+{
+    public class CustomerCreateModel
+    {
+        public CustomerCreateModel(
             string firstName,
             string lastName)
         {
